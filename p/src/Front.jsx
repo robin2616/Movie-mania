@@ -16,7 +16,7 @@ const [a,b]=useState([])
     
     useEffect(() => {
         
-        axios.get(`https://www.omdbapi.com/?i=tt3896198&apikey=70c2a07a&${s}=${x}`)
+        axios.get(`https://www.omdbapi.com/?i=tt3896198&apikey=70c2a07a&s=${x}`)
             .then((res) => {
                 // console.log(res.data.Search);
                 b(res.data.Search)
