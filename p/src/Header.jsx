@@ -19,7 +19,8 @@ const Header = () => {
 
     return (
         <header className="bg-gray-800 text-white flex justify-between items-center p-4">
-            <button onClick={() => { window.open("/", "_self") }} className="text-2xl font-bold">MovieMania</button>
+            <button onClick={() => { window.open("/", "_self");
+                                   addname("")}} className="text-2xl font-bold">MovieMania</button>
             <div className="flex items-center">
 
                 <div class="form-floating w-[400px] translate-x-[-400px]">
