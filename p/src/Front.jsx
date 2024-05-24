@@ -15,7 +15,7 @@ else{x=name}
     
     useEffect(() => {
         
-        axios.get(`https://www.omdbapi.com/?i=tt3896198&apikey=70c2a07a&s=${x}`)
+        axios.get(`https://www.omdbapi.com/?i=tt3896198&apikey=4c9bb3a7&s=${x}`)
             .then((res) => {
                if(Object.values(res).length === 0){
                 value=0;
