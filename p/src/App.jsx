@@ -1,4 +1,4 @@
-// import { BrowserRouter,Route,Routes } from "react-router-dom";
+import { BrowserRouter,Route,Routes } from "react-router-dom";
 import Header from "./Header"
 import { Movie } from "./Context"
 import Front from "./Front"

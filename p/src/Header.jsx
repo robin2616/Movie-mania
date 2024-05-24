@@ -34,7 +34,7 @@ const Header = () => {
                     Search
                 </button>
 
-                <button className=' flex flex-row fixed right-[200px] bg-blue-300 p-2 '>
+                <button className=' flex flex-row fixed right-[200px] bg-blue-300 p-2 bor'>
                     <h3>Filter</h3>
                     <IoFilterSharp />
                 </button>
