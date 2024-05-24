@@ -12,7 +12,8 @@ const Header = () => {
  var value=0;
     const handleSearch = () => {
         addname(search)
-        location.reload()
+        window.open("/","_self")
+        
     };
 
 
