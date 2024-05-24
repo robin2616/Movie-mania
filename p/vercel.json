@@ -1,6 +1,6 @@
 {
     "rewrites":[
-        {"source":"/","destination":"/Front.jsx"},
-        {"source":"/detail","destination":"/Detail.jsx"}
+        {"source":"/{.*}","destination":"/"},
+        
     ]
 }
