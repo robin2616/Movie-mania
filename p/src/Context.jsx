@@ -33,6 +33,9 @@ const [detail, updatedetail] = useState(() => {
     localStorage.setItem('detailofmovie', JSON.stringify(detail));
   }, [detail]);
 
+ 
+
+
 return (<>
     <Mycontext.Provider value={{name,addname,detail,changedetail}}>
       {children}
