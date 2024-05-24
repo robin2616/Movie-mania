@@ -1,14 +1,15 @@
 import { useContext, useEffect, useState } from "react"
 import axios from 'axios'
 import { Mycontext } from "./Context"
+import Detail from "./ViewDetail"
 function Front() {
-const{name,detail,changedetail}=useContext(Mycontext)
+const{name,changedetail}=useContext(Mycontext)
 
 const [a,b]=useState([])
  var x;
 
  if(name===""){x="alien"}
- else{x===name}
+ else{x=name}
 
 
 
@@ -22,7 +23,7 @@ const [a,b]=useState([])
             })
     }, [])
 
-
+console.log(a)
     return (<>
     <div className="flex flex-row flex-wrap">
 {a.map((i)=>
